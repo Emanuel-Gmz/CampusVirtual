@@ -1,0 +1,89 @@
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    color: brown;
+    background-color: coral;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    margin-right: 10px;
+    list-style-type: none;
+}
+.navbar a{
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-size: 20px;
+}
+.header img{
+    align-items: center;
+    height: 50px;
+    margin-right: 10px;
+}
+body{
+    font-family: sans-serif;
+    color:whitesmoke;
+    background: url(img/Fondo\ Restaurant.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+}
+footer{
+    background-color:black;
+    color: rgb(219, 27, 27);
+}
+table,th,td{
+    border: 1px solid black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.usuario{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.table.no-bg td {
+    background-color: greenyellow !important;
+}
+.table.no-bg th {
+    background-color: aquamarine !important;
+}
+
+.contenerdor{
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+}
+.bloqueo{
+    width:100%;
+    height:auto; 
+    display:block;
+} 
+.columnaccs{
+    background-color: tomato; 
+    border: 1px solid #dee2e6; 
+    padding: 20px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
